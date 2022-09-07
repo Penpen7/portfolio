@@ -3,13 +3,19 @@
 }
 
 .image {
-
+  border-radius: 50%;
+  overflow:hidden;
+  position:relative;
+  width:400px;
+  aspect-ratio: 1;
 }
-.name {
 
+.name {
+  size: 20px;
 }
 
 .content {
   display:flex;
+  align-items: flex-start;
   gap:20px;
 }

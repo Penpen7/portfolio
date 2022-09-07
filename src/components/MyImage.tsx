@@ -10,8 +10,10 @@ const MyImage = (): JSX.Element => {
             src="/images/IMG_8276.JPG"
             width={400}
             height={400}
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
             alt="my image"
-            className={styles.avater}
           />
         </div>
         <div className={styles.detail}>
