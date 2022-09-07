@@ -1,0 +1,15 @@
+.detail {
+  text-align: left;
+}
+
+.image {
+
+}
+.name {
+
+}
+
+.content {
+  display:flex;
+  gap:20px;
+}
