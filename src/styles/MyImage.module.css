@@ -5,8 +5,8 @@
 
 .image {
   border-radius: 50%;
-  overflow:hidden;
-  position:relative;
+  overflow: hidden;
+  position: relative;
   min-width: 200px;
   aspect-ratio: 1;
 }
@@ -16,9 +16,9 @@
 }
 
 .content {
-  display:flex;
+  display: flex;
   align-items: center;
-  gap:20px;
+  gap: 20px;
 }
 
 .content {
