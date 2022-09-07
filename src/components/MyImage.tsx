@@ -10,14 +10,16 @@ const MyImage = (): JSX.Element => {
             src="/images/IMG_8276.JPG"
             width={400}
             height={400}
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
             alt="my image"
-            className={styles.avater}
           />
         </div>
         <div className={styles.detail}>
           <div className={styles.name}>Naoki Uehara</div>
           <p>
-            京都大学工学部物理工学科卒業後、京都大学大学院エネルギー科学研究科を修了。2021年4月ニフティ株式会社に入社。ニフティニュースの開発・運用に携わっています。
+            2019年3月京都大学工学部物理工学科卒業後、2021年3月京都大学大学院エネルギー科学研究科を修了。2021年4月ニフティ株式会社に入社。現在は、ニフティニュースの開発・運用に携わっています。
           </p>
           <p>バックエンドを中心に、フロントエンドなど幅広く興味があります。</p>
         </div>
